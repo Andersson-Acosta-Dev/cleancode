@@ -44,13 +44,23 @@ The code takes into account its ethical obligations on data and the potential im
 
 -**Respectful**: The code refrains from using discriminatory and offensive language.
 
-## What is code optimization
-In computer science code optimization is the process of modifying a software system to make some aspect of it work more efficiently or use fewer resources. In general, a computer program may be optimized so that it executes more rapidly, or to make it capable of operating with less memory storage or other resources, or draw less power.
+## [What is code optimization](https://pvs-studio.com/en/blog/terms/0084/)
+Code optimization is a crucial process of modifying code to enhance its quality and efficiency. It involves various techniques aimed at improving different aspects of the program, such as reducing its size, minimizing memory usage, increasing execution speed, or minimizing input/output operations.
 
-## What is code refactoring
-Code refactoring is defined as the process of restructuring computer code without changing or adding to its external behavior and functionality. There are many ways to go about refactoring, but it most often comprises applying a series of standardized, basic actions, sometimes known as micro-refactorings. The changes in existing source code preserve the software’s behavior and functionality because the changes are so tiny that they are unlikely to create or introduce any new errors.
+When optimizing code, it is essential to ensure that the optimized version produces the same output and has the same side effects as its non-optimized counterpart. This requirement ensures that the functionality and behavior of the program remain intact throughout the optimization process. However, in certain cases, the potential benefits of optimization may outweigh the potential consequences of altering the program's behavior, and this requirement may be relaxed.
 
-## Continuous integration and continuous deployment (CI/CD)
+The goal of code optimization is to strike a balance between improving performance and maintaining the desired program behavior. By carefully evaluating the potential impact of optimizations, developers can make informed decisions to achieve the desired level of optimization without compromising the overall functionality and reliability of the program.
+
+## [What is code refactoring](https://www.bmc.com/blogs/code-refactoring-explained/)
+Code refactoring is a vital process that involves restructuring computer code without altering its external behavior or functionality. This practice aims to improve the quality, readability, and maintainability of the codebase. Refactoring can be achieved through various techniques, but it typically involves applying a series of standardized, basic actions, often referred to as micro-refactorings.
+
+During the refactoring process, the existing source code is modified, ensuring that the software's behavior and functionality remain intact. These modifications are carefully executed in such small increments that the likelihood of introducing new errors is minimal. This approach allows developers to enhance the codebase without compromising the stability or reliability of the software.
+
+By engaging in code refactoring, developers can achieve several benefits. It enhances code readability, making it easier for other developers to understand and maintain. Refactoring also improves the overall structure and organization of the code, making it more efficient and scalable. Additionally, it enables developers to eliminate redundant or duplicated code, reducing complexity and enhancing code maintainability.
+
+Code refactoring is an ongoing process that should be incorporated into the software development lifecycle. By continuously refining the codebase, developers can ensure its long-term sustainability, adaptability, and ease of future enhancements or bug fixes. It is a practice that demonstrates a commitment to producing high-quality, robust software systems.
+
+## [Continuous integration and continuous deployment (CI/CD)](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
  
 ### Continuous integration CI
 Developers practicing continuous integration merge their changes back to the main branch as often as possible. The developer's changes are validated by creating a build and running automated tests against the build. By doing so, you avoid integration challenges that can happen when waiting for release day to merge changes into the release branch.
@@ -60,9 +70,9 @@ Continuous integration puts a great emphasis on testing automation to check that
 Continuous deployment goes one step further than continuous delivery. With this practice, every change that passes all stages of your production pipeline is released to your customers. There's no human intervention, and only a failed test will prevent a new change to be deployed to production.
 Continuous deployment is an excellent way to accelerate the feedback loop with your customers and take pressure off the team as there isn't a "release day" anymore. Developers can focus on building software, and they see their work go live minutes after they've finished working on it.
 
-## What is DRY (Don't Repeat Yourself)
-DRY is an important software development principle that emphasises the importance of avoiding duplication in code. 
-In React Native, the DRY principle can help developers to write clean, maintainable, and scalable code.
+## [What is DRY (Don't Repeat Yourself)](https://www.linkedin.com/pulse/dry-principles-react-native-rohit-bansal/)
+The DRY (Don't Repeat Yourself) principle is a fundamental concept in software development that promotes code reusability and maintainability by avoiding duplication. In React Native, applying the DRY principle can greatly benefit developers in writing clean, maintainable, and scalable code.
+
 
 ## Applying the DRY principle in React Native
 ### Use reusable components:
