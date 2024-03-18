@@ -1,7 +1,7 @@
 # cleancode
 
 ## [What is clean code](https://www.sonarsource.com/solutions/clean-code/#:~:text=Clean%20Code%20is%20code%20that's,value%20out%20of%20your%20software.)
-First of all clean code is code that's easy to read, maintain, understand and change through structure and consistency yet remains robust and secure to withstand performance demands. It lets us get the most value out of our software.
+ Clean code refers to code that is easily readable, maintainable, and understandable, while still being robust and secure. It follows a consistent structure and adheres to best practices, allowing developers to make changes efficiently and effectively.
 
 ## Principals and best practices of clean code
 In order to deliver software that is of high quality, reliable, maintainable, and secure, it is imperative that the underlying code is robust. As a mean to achieve the agility, velocity, and scale of development needed for their business goals. 
